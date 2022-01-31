@@ -35,10 +35,18 @@ if gameoption == "SM": # Checks to see if player entered SM as their gamemode.
      sys.stdout.write(char)
      sys.stdout.flush()
 
-     print("Your moves: Attack (A) Run Away (RA)")
+    time.sleep(1)
 
-     action1 = input("Your Move: ")
+    print("")
 
-     if action1 == "A":
-         
+    print("Your moves: Attack (A) Run Away (RA)")
 
+    action1 = input("Your Move: ")
+
+    if action1 == "A": # Checks to see if the user picked Attack as their option. 
+    
+     words2 = "You run into the forest and attack"
+     for char in words2:
+      time.sleep(0.1)
+      sys.stdout.write(char)
+      sys.stdout.flush()
