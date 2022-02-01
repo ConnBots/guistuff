@@ -50,3 +50,13 @@ if gameoption == "SM": # Checks to see if player entered SM as their gamemode.
       time.sleep(0.1)
       sys.stdout.write(char)
       sys.stdout.flush()
+
+    print("")
+
+    time.sleep(1)
+
+    words3 = "Your attack is succesful and you pass through the forest."
+    for char in words3:
+      time.sleep(0.1)
+      sys.stdout.write(char)
+      sys.stdout.flush()
