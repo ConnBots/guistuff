@@ -61,9 +61,19 @@ if gameoption == "SM": # Checks to see if player entered SM as their gamemode.
       sys.stdout.write(char)
       sys.stdout.flush()
 
+      print("")
+
+      time.sleep(1)
+
+      words4 = "When you exit the forest, you see an old man begginhg for help. Do you help him?"
+      for char in words4:
+        time.sleep(0.1)
+        sys.stdout.write(char)
+        sys.stdout.flush()
+
     if action1 == "RA":
-     words4 = "You run away and fall into a pit of death"
-     for char in words4:
+     words5 = "You run away and fall into a pit of death"
+     for char in words5:
       time.sleep(0.1)
       sys.stdout.write(char)
       sys.stdout.flush()
